@@ -1,14 +1,14 @@
 const express = require("express")
 const app = express()
 const cors = require("cors")
-const adminRoute = require("./routes/admin")
+const adminRoute = require("./routes/projects")
 
 require("./models")
 
 app.use(express.json())
 app.use(cors())
 
-app.use("/admin", adminRoute)
+app.use("/projects", adminRoute)
 
 
 app.listen(process.env.port, () => {
