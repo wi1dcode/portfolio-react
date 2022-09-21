@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Container from "../components/Container"
 // import Footer from '../components/Footer'
-// import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar"
 
 
 const Home = () => {
@@ -20,10 +20,11 @@ const Home = () => {
 
     return (
       <>
-        {/* <Navbar/> */}
+        <Navbar/>
         {/* <Header/> */}
         <Container>
       <main className="flex flex-wrap">
+        <h1 className="text-white">Wild</h1>
       </main>
       </Container>
       {/* <Footer/> */}
