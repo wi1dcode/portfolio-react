@@ -3,6 +3,7 @@ import About from "../components/About"
 import Container from "../components/Container"
 import Footer from '../components/Footer'
 import Navbar from "../components/Navbar"
+import Skills from "../components/Skills"
 import Title from "../components/Title"
 import Window from "../components/Window"
 
@@ -33,6 +34,10 @@ const Home = () => {
             <section className="about">
               <Title>About</Title>
               <About/>
+            </section>
+            <section className="skills">
+              <Title>Skills</Title>
+              <Skills/>
             </section>
           </Container>
       </main>
