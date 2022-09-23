@@ -21,12 +21,13 @@ const Home = () => {
     return (
       <>
         <Navbar/>
-        {/* <Header/> */}
-        <Container>
       <main className="flex flex-wrap">
+        <header>
+        <Container>
         <Window/>
+        </Container>
+        </header>
       </main>
-      </Container>
       {/* <Footer/> */}
       </>
     )
