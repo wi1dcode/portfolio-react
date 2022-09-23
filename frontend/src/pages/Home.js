@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar"
 import Skills from "../components/Skills"
 import Title from "../components/Title"
 import Window from "../components/Window"
+import Project from "../components/Project"
 
 const Home = () => {
   const [categories, setCategories] = useState([])
@@ -41,7 +42,10 @@ const Home = () => {
             </section>
             <section className="projects">
               <Title>Projects</Title>
-
+              <Project/>
+              <Project/>
+              <Project/>
+              <Project/>
             </section>
           </Container>
       </main>

@@ -104,6 +104,18 @@ header {
     width: 40%;
 }
 
+
+/* ------------------------ PROJECTS PAGE ------------------------ */
+
+.project_window {
+    background-image: url(./img/project_window.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 319px;
+}
+
+
 /* ------------------------ FOOTER ------------------------ */
 
 
