@@ -5,11 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 /* font-family: 'Alata', sans-serif; */
 
-* {
+body {
     background-color: #161A1D;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* ------------------------ NAV MENU ------------------------ */
 
 ul li {
     font-size: 40px;
@@ -30,4 +32,20 @@ nav a:hover:not(.logo_a) {
 nav a:hover {
     color: #660708;
     transition: 0.2s;
+}
+
+/* ------------------------ START WINDOW ------------------------ */
+
+.window {
+    background-image: url(./img/webgenius.png);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+}
+
+.catrix {
+    background-image: url(./img/catrix.gif);
+    box-sizing: border-box;
 }

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import Container from "../components/Container"
 // import Footer from '../components/Footer'
 import Navbar from "../components/Navbar"
-
+import Window from "../components/Window"
 
 const Home = () => {
   const [categories, setCategories] = useState([])
@@ -24,7 +24,7 @@ const Home = () => {
         {/* <Header/> */}
         <Container>
       <main className="flex flex-wrap">
-        <h1 className="text-white">Wild</h1>
+        <Window/>
       </main>
       </Container>
       {/* <Footer/> */}

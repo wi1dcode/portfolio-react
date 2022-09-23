@@ -13,7 +13,7 @@ const NotFound = () => {
         <a className="relative inline-block text-sm font-medium text-slate-900 group active:text-slate-500 focus:outline-none focus:ring">
           <span className="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-slate-900 group-hover:translate-y-0 group-hover:translate-x-0"></span>
           <Link to="/">
-            <span className="relative block px-8 py-3 bg-slate-200 border border-current">
+            <span className="relative block px-8 py-3 bg-stone-900 border border-current">
               Go Home
             </span>
           </Link>
