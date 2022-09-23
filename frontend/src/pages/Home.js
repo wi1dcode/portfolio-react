@@ -39,6 +39,10 @@ const Home = () => {
               <Title>Skills</Title>
               <Skills/>
             </section>
+            <section className="projects">
+              <Title>Projects</Title>
+
+            </section>
           </Container>
       </main>
       <Footer/>
