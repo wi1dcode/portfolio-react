@@ -36,7 +36,7 @@ nav a:hover {
     transition: 0.2s;
 }
 
-/* ------------------------ START WINDOW ------------------------ */
+/* ------------------------ HEADER ------------------------ */
 
 header {
     background-image: url(./img/welcome_bg.jpg);
@@ -93,4 +93,23 @@ header {
     font-size: 35px;
     margin-top: 5%;
     letter-spacing: 0.17em;
+}
+
+/* ------------------------ ABOUT PAGE ------------------------ */
+
+
+.about_inner img {
+    mix-blend-mode: lighten;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 40%;
+}
+
+/* ------------------------ FOOTER ------------------------ */
+
+
+footer {
+    background: #3E3E3E;
+    margin-top: 100px;
+    font-size: 15px;
+    padding-top: 5px;
 }

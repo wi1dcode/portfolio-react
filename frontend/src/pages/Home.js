@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react"
+import About from "../components/About"
 import Container from "../components/Container"
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 import Navbar from "../components/Navbar"
+import Title from "../components/Title"
 import Window from "../components/Window"
 
 const Home = () => {
@@ -23,12 +25,18 @@ const Home = () => {
         <Navbar/>
       <main className="flex flex-wrap">
         <header>
-        <Container>
-        <Window/>
-        </Container>
+          <Container>
+            <Window/>
+          </Container>
         </header>
+          <Container>
+            <section className="about">
+              <Title>About</Title>
+              <About/>
+            </section>
+          </Container>
       </main>
-      {/* <Footer/> */}
+      <Footer/>
       </>
     )
   }
