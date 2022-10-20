@@ -8,6 +8,12 @@ import Title from "../components/Title"
 import Window from "../components/Window"
 import Project from "../components/Project"
 
+// Projects images
+import pokemon from "../img/projects/pokemon.png"
+import todolist from "../img/projects/todolist.png"
+
+
+
 const Home = () => {
   const [categories, setCategories] = useState([])
 
@@ -42,10 +48,13 @@ const Home = () => {
             </section>
             <section className="projects">
               <Title>Projects</Title>
+              <div className="flex flex-wrap justify-around text-center">
+              <Project url="https://pokkemon.netlify.com/" image={pokemon} title="Random Pokemon" techno="React / API"/>
+              <Project url="https://wildapp.netlify.app/"image={todolist} title="To do list" techno="React"/>
               <Project/>
               <Project/>
-              <Project/>
-              <Project/>
+              </div>
+
             </section>
           </Container>
       </main>
